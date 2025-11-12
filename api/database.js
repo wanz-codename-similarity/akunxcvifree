@@ -2,7 +2,7 @@
 const axios = require('axios');
 
 // Konfigurasi GitHub
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN || "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";
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN || "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";
 const NAME_GH = process.env.NAME_GH || "wanz-codename-similarity";
 const REPO_GH = process.env.REPO_GH || "xcviv2gen2free";
 const CONNECT_PATH = process.env.CONNECT_PATH || "api/connect.js";
