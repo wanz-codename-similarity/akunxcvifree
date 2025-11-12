@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Akun XCVI V2 GEN 2 FREE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #00f3ff;
+            --secondary: #0a0a2a;
+            --accent: #ff003c;
+            --dark: #050510;
+            --light: #e0f7ff;
+            --gray: #1a1a3a;
+            --neon-glow: 0 0 10px var(--primary), 0 0 20px var(--primary), 0 0 30px var(--primary);
+            --accent-glow: 0 0 10px var(--accent), 0 0 20px var(--accent);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap');
+
+        body {
+            background: linear-gradient(135deg, var(--dark), var(--secondary));
+            color: var(--light);
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Background Animation */
+        .cyber-grid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(0, 243, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 243, 255, 0.05) 1px, transparent 1px);
+            background-size: 50px 50px;
+            z-index: -1;
+            animation: gridMove 20s linear infinite;
+        }
+
+        @keyframes gridMove {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(50px, 50px); }
+        }
+
+        .floating-shapes {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .shape {
+            position: absolute;
+            background: rgba(0, 243, 255, 0.1);
+            border: 1px solid rgba(0, 243, 255, 0.3);
+            border-radius: 50%;
+            animation: float 15s infinite ease-in-out;
+        }
+
+        .shape:nth-child(1) {
+            width: 80px;
+            height: 80px;
+            top: 10%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .shape:nth-child(2) {
+            width: 120px;
+            height: 120px;
+            top: 70%;
+            left: 80%;
+            animation-delay: 2s;
+        }
+
+        .shape:nth-child(3) {
+            width: 60px;
+            height: 60px;
+            top: 20%;
+            left: 85%;
+            animation-delay: 4s;
+        }
+
+        .shape:nth-child(4) {
+            width: 100px;
+            height: 100px;
+            top: 80%;
+            left: 15%;
+            animation-delay: 6s;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--primary), transparent);
+            box-shadow: var(--neon-glow);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            position: relative;
+        }
+
+        .logo-icon {
+            font-size: 32px;
+            color: var(--primary);
+            text-shadow: var(--neon-glow);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .logo h1 {
+            font-size: 24px;
+            font-weight: 700;
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+            letter-spacing: 1px;
+        }
+
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: rgba(10, 10, 42, 0.7);
+            border: 1px solid rgba(0, 243, 255, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 243, 255, 0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .stat-card:hover::before {
+            left: 100%;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), var(--neon-glow);
+        }
+
+        .stat-card h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .stat-card .number {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--light);
+            text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+        }
+
+        .menu-toggle {
+            background: rgba(10, 10, 42, 0.7);
+            border: 1px solid rgba(0, 243, 255, 0.3);
+            color: var(--primary);
+            font-size: 24px;
+            cursor: pointer;
+            transition: all 0.3s;
+            padding: 10px;
+            border-radius: 8px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-shadow: var(--neon-glow);
+        }
+
+        .menu-toggle:hover {
+            background: rgba(0, 243, 255, 0.2);
+            box-shadow: var(--neon-glow);
+            transform: scale(1.1);
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .form-container {
+            background: rgba(10, 10, 42, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 243, 255, 0.3);
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        .form-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+        }
+
+        .form-container:hover {
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4), var(--neon-glow);
+            transform: translateY(-5px);
+        }
+
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: var(--primary);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+            position: relative;
+        }
+
+        .form-container h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            border-radius: 3px;
+        }
+
+        .input-group {
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 500;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 14px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid rgba(0, 243, 255, 0.3);
+            background: rgba(0, 0, 0, 0.5);
+            color: var(--light);
+            font-size: 16px;
+            transition: all 0.3s;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .cooldown-info {
+            background: rgba(255, 0, 60, 0.1);
+            border: 1px solid rgba(255, 0, 60, 0.3);
+            border-radius: 8px;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 14px;
+            display: none;
+        }
+
+        .cooldown-info.active {
+            display: block;
+            animation: fadeIn 0.5s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .cooldown-timer {
+            font-weight: bold;
+            color: var(--accent);
+            text-shadow: var(--accent-glow);
+        }
+
+        .btn {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: var(--dark);
+            border: none;
+            padding: 15px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: left 0.5s;
+            z-index: -1;
+        }
+
+        .btn:hover::before {
+            left: 100%;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), var(--neon-glow);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .btn:disabled:hover::before {
+            left: -100%;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            right: -400px;
+            width: 400px;
+            height: 100%;
+            background: linear-gradient(to bottom, var(--secondary), var(--dark));
+            box-shadow: -5px 0 25px rgba(0, 0, 0, 0.7);
+            transition: right 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+            z-index: 1000;
+            overflow-y: auto;
+            border-left: 1px solid rgba(0, 243, 255, 0.3);
+        }
+
+        .sidebar.active {
+            right: 0;
+        }
+
+        .sidebar-header {
+            padding: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(0, 243, 255, 0.3);
+            background: rgba(10, 10, 42, 0.9);
+        }
+
+        .sidebar-header h2 {
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: var(--neon-glow);
+        }
+
+        .close-sidebar {
+            background: none;
+            border: none;
+            color: var(--primary);
+            font-size: 24px;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+
+        .close-sidebar:hover {
+            background: rgba(0, 243, 255, 0.2);
+            box-shadow: var(--neon-glow);
+            transform: rotate(90deg);
+        }
+
+        .sidebar-menu {
+            padding: 25px;
+        }
+
+        .sidebar-menu ul {
+            list-style: none;
+        }
+
+        .sidebar-menu li {
+            margin-bottom: 15px;
+        }
+
+        .sidebar-menu a {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            color: var(--light);
+            text-decoration: none;
+            transition: all 0.3s;
+            border: 1px solid transparent;
+        }
+
+        .sidebar-menu a:hover {
+            background: rgba(0, 243, 255, 0.1);
+            color: var(--primary);
+            border-color: rgba(0, 243, 255, 0.3);
+            transform: translateX(5px);
+            text-shadow: var(--neon-glow);
+        }
+
+        .sidebar-menu i {
+            font-size: 20px;
+            width: 25px;
+            text-align: center;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(5, 5, 16, 0.8);
+            z-index: 999;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s;
+            backdrop-filter: blur(5px);
+        }
+
+        .overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .history-section {
+            margin-top: 30px;
+            padding: 20px;
+            border-top: 1px solid rgba(0, 243, 255, 0.3);
+        }
+
+        .history-section h3 {
+            margin-bottom: 20px;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: var(--neon-glow);
+            position: relative;
+            display: inline-block;
+        }
+
+        .history-section h3::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, var(--primary), transparent);
+        }
+
+        .history-list {
+            max-height: 400px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        .history-list::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        .history-list::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+
+        .history-list::-webkit-scrollbar-thumb {
+            background: var(--primary);
+            border-radius: 10px;
+        }
+
+        .history-item {
+            background: rgba(10, 10, 42, 0.7);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 3px solid var(--primary);
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .history-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 243, 255, 0.1), transparent);
+            transition: left 0.5s;
+        }
+
+        .history-item:hover::before {
+            left: 100%;
+        }
+
+        .history-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .history-item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .history-item-username {
+            font-weight: bold;
+            color: var(--primary);
+            text-shadow: 0 0 5px rgba(0, 243, 255, 0.5);
+        }
+
+        .history-item-details {
+            font-size: 14px;
+            color: rgba(224, 247, 255, 0.7);
+            margin-bottom: 10px;
+        }
+
+        .copy-btn {
+            background: rgba(0, 243, 255, 0.1);
+            color: var(--light);
+            border: 1px solid rgba(0, 243, 255, 0.3);
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 12px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.3s;
+        }
+
+        .copy-btn:hover {
+            background: var(--primary);
+            color: var(--dark);
+            box-shadow: var(--neon-glow);
+        }
+
+        .welcome-popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(5, 5, 16, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+        }
+
+        .popup-content {
+            background: linear-gradient(135deg, var(--secondary), var(--dark));
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5), var(--neon-glow);
+            border: 1px solid rgba(0, 243, 255, 0.3);
+            animation: popupAppear 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .popup-content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+        }
+
+        @keyframes popupAppear {
+            0% { transform: scale(0.5) rotate(-5deg); opacity: 0; }
+            100% { transform: scale(1) rotate(0); opacity: 1; }
+        }
+
+        .popup-content h2 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: var(--neon-glow);
+        }
+
+        .popup-content p {
+            margin-bottom: 25px;
+            line-height: 1.6;
+            color: rgba(224, 247, 255, 0.8);
+        }
+
+        .popup-btn {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: var(--dark);
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .popup-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), var(--neon-glow);
+        }
+
+        .result-popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(5, 5, 16, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s;
+        }
+
+        .result-popup.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .result-content {
+            background: linear-gradient(135deg, var(--secondary), var(--dark));
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(0, 243, 255, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .result-content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+        }
+
+        .result-content.success::before {
+            background: linear-gradient(90deg, var(--primary), #00ff88);
+        }
+
+        .result-content.error::before {
+            background: linear-gradient(90deg, var(--accent), #ff4400);
+        }
+
+        .result-icon {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .success .result-icon {
+            color: #00ff88;
+            text-shadow: 0 0 10px rgba(0, 255, 136, 0.5), 0 0 20px rgba(0, 255, 136, 0.3);
+        }
+
+        .error .result-icon {
+            color: var(--accent);
+            text-shadow: var(--accent-glow);
+        }
+
+        .result-content h3 {
+            margin-bottom: 15px;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .success h3 {
+            color: #00ff88;
+        }
+
+        .error h3 {
+            color: var(--accent);
+        }
+
+        .account-details {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: left;
+            border: 1px solid rgba(0, 243, 255, 0.2);
+        }
+
+        .account-details p {
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(0, 243, 255, 0.1);
+        }
+
+        .account-details span {
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            border-top: 1px solid rgba(0, 243, 255, 0.3);
+            color: rgba(224, 247, 255, 0.6);
+            font-size: 14px;
+            position: relative;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--primary), transparent);
+        }
+
+        /* Matrix rain effect */
+        .matrix-rain {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+            opacity: 0.1;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 320px;
+                right: -320px;
+            }
+            
+            .logo h1 {
+                font-size: 18px;
+            }
+            
+            .form-container {
+                padding: 20px;
+            }
+            
+            .stats-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .logo h1 {
+                font-size: 16px;
+            }
+            
+            .popup-content {
+                padding: 25px;
+            }
+            
+            .stat-card .number {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="cyber-grid"></div>
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <canvas class="matrix-rain" id="matrixRain"></canvas>
+
+    <!-- Welcome Popup -->
+    <div class="welcome-popup" id="welcomePopup">
+        <div class="popup-content">
+            <h2>Selamat Datang!</h2>
+            <p>Website untuk membuat akun XCVI V2 GEN 2 FREE. Dapatkan akses premium selama 30 hari secara gratis!</p>
+            <button class="popup-btn" id="closeWelcome">Mulai Sekarang</button>
+        </div>
+    </div>
+
+    <!-- Result Popup -->
+    <div class="result-popup" id="resultPopup">
+        <div class="result-content" id="resultContent">
+            <div class="result-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3 id="resultTitle">Berhasil!</h3>
+            <div class="account-details" id="accountDetails">
+                <!-- Account details will be inserted here -->
+            </div>
+            <button class="btn" id="closeResult">Tutup</button>
+        </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2>Menu</h2>
+            <button class="close-sidebar" id="closeSidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="https://t.me/wanz_xcvi" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                        <span>Hubungi Owner</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" id="historyBtn">
+                        <i class="fas fa-history"></i>
+                        <span>History Akun</span>
+                    </a>
+                </li>
+            </ul>
+            
+            <div class="history-section">
+                <h3>Akun yang Pernah Dibuat</h3>
+                <div class="history-list" id="historyList">
+                    <!-- History items will be inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-user-astronaut"></i>
+                </div>
+                <h1>Create Akun XCVI V2 GEN 2 FREE</h1>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </header>
+
+        <div class="stats-container">
+            <div class="stat-card">
+                <h3>Total Akun di Database</h3>
+                <div class="number" id="totalDatabase">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>Akun Dibuat oleh Anda</h3>
+                <div class="number" id="totalUserAccounts">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>Status Sistem</h3>
+                <div class="number" id="systemStatus">Online</div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="form-container">
+                <h2>Buat Akun Baru</h2>
+                
+                <div class="cooldown-info" id="cooldownInfo">
+                    <i class="fas fa-clock"></i> Cooldown aktif. Tunggu <span class="cooldown-timer" id="cooldownTimer">5:00</span> sebelum membuat akun baru.
+                </div>
+                
+                <div class="input-group">
+                    <label for="nameInput">Nama Akun</label>
+                    <input type="text" id="nameInput" placeholder="Masukkan nama untuk akun Anda">
+                </div>
+                <button class="btn" id="createBtn">
+                    <i class="fas fa-plus-circle"></i>
+                    Create Akun
+                </button>
+            </div>
+        </div>
+
+        <footer>
+            Developer Wanz Official
+        </footer>
+    </div>
+
+    <script>
+        // Matrix Rain Effect
+        const canvas = document.getElementById('matrixRain');
+        const ctx = canvas.getContext('2d');
+        
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        
+        const characters = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン0123456789';
+        const charArray = characters.split('');
+        
+        const fontSize = 14;
+        const columns = canvas.width / fontSize;
+        
+        const drops = [];
+        for (let i = 0; i < columns; i++) {
+            drops[i] = 1;
+        }
+        
+        function drawMatrix() {
+            ctx.fillStyle = 'rgba(5, 5, 16, 0.04)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            ctx.fillStyle = '#00f3ff';
+            ctx.font = `${fontSize}px monospace`;
+            
+            for (let i = 0; i < drops.length; i++) {
+                const text = charArray[Math.floor(Math.random() * charArray.length)];
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+                
+                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                    drops[i] = 0;
+                }
+                
+                drops[i]++;
+            }
+        }
+        
+        setInterval(drawMatrix, 35);
+        
+        window.addEventListener('resize', function() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+
+        // DOM Elements
+        const welcomePopup = document.getElementById('welcomePopup');
+        const closeWelcome = document.getElementById('closeWelcome');
+        const menuToggle = document.getElementById('menuToggle');
+        const sidebar = document.getElementById('sidebar');
+        const closeSidebar = document.getElementById('closeSidebar');
+        const overlay = document.getElementById('overlay');
+        const historyBtn = document.getElementById('historyBtn');
+        const historyList = document.getElementById('historyList');
+        const createBtn = document.getElementById('createBtn');
+        const nameInput = document.getElementById('nameInput');
+        const resultPopup = document.getElementById('resultPopup');
+        const resultContent = document.getElementById('resultContent');
+        const resultTitle = document.getElementById('resultTitle');
+        const accountDetails = document.getElementById('accountDetails');
+        const closeResult = document.getElementById('closeResult');
+        const totalDatabase = document.getElementById('totalDatabase');
+        const totalUserAccounts = document.getElementById('totalUserAccounts');
+        const systemStatus = document.getElementById('systemStatus');
+        const cooldownInfo = document.getElementById('cooldownInfo');
+        const cooldownTimer = document.getElementById('cooldownTimer');
+
+        // Cooldown variables
+        let cooldownActive = false;
+        let cooldownTime = 300; // 5 minutes in seconds
+        let cooldownInterval;
+
+        // Load accounts from localStorage
+        let accounts = JSON.parse(localStorage.getItem('xcviAccounts')) || [];
+        updateUserAccountCount();
+        renderHistory();
+        checkCooldown();
+
+        // Check if user has cooldown active
+        function checkCooldown() {
+            const lastCreation = localStorage.getItem('lastAccountCreation');
+            if (lastCreation) {
+                const now = Date.now();
+                const diff = Math.floor((now - parseInt(lastCreation)) / 1000);
+                
+                if (diff < cooldownTime) {
+                    startCooldown(cooldownTime - diff);
+                }
+            }
+        }
+
+        // Start cooldown timer
+        function startCooldown(seconds) {
+            cooldownActive = true;
+            cooldownInfo.classList.add('active');
+            createBtn.disabled = true;
+            
+            let timeLeft = seconds;
+            updateCooldownDisplay(timeLeft);
+            
+            cooldownInterval = setInterval(() => {
+                timeLeft--;
+                updateCooldownDisplay(timeLeft);
+                
+                if (timeLeft <= 0) {
+                    clearInterval(cooldownInterval);
+                    cooldownActive = false;
+                    cooldownInfo.classList.remove('active');
+                    createBtn.disabled = false;
+                }
+            }, 1000);
+        }
+
+        // Update cooldown display
+        function updateCooldownDisplay(seconds) {
+            const minutes = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            cooldownTimer.textContent = `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
+        }
+
+        // Fetch total accounts from database
+        async function fetchTotalAccounts() {
+            try {
+                const response = await fetch('/api/database?action=count');
+                const data = await response.json();
+                
+                if (data.success) {
+                    totalDatabase.textContent = data.total;
+                    systemStatus.textContent = 'Online';
+                    systemStatus.style.color = '#00ff88';
+                } else {
+                    systemStatus.textContent = 'Offline';
+                    systemStatus.style.color = '#ff003c';
+                }
+            } catch (error) {
+                console.error('Error fetching total accounts:', error);
+                systemStatus.textContent = 'Offline';
+                systemStatus.style.color = '#ff003c';
+            }
+        }
+
+        // Update user account count
+        function updateUserAccountCount() {
+            totalUserAccounts.textContent = accounts.length;
+        }
+
+        // Event Listeners
+        closeWelcome.addEventListener('click', () => {
+            welcomePopup.style.display = 'none';
+            fetchTotalAccounts();
+        });
+
+        menuToggle.addEventListener('click', () => {
+            sidebar.classList.add('active');
+            overlay.classList.add('active');
+        });
+
+        closeSidebar.addEventListener('click', () => {
+            sidebar.classList.remove('active');
+            overlay.classList.remove('active');
+        });
+
+        overlay.addEventListener('click', () => {
+            sidebar.classList.remove('active');
+            overlay.classList.remove('active');
+            resultPopup.classList.remove('active');
+        });
+
+        historyBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            renderHistory();
+        });
+
+        closeResult.addEventListener('click', () => {
+            resultPopup.classList.remove('active');
+            overlay.classList.remove('active');
+        });
+
+        createBtn.addEventListener('click', createAccount);
+
+        nameInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                createAccount();
+            }
+        });
+
+        // Functions
+        function updateTotalAccounts() {
+            totalUserAccounts.textContent = accounts.length;
+        }
+
+        function renderHistory() {
+            if (accounts.length === 0) {
+                historyList.innerHTML = '<p style="text-align: center; color: rgba(224,247,255,0.5); padding: 20px;">Belum ada akun yang dibuat</p>';
+                return;
+            }
+
+            historyList.innerHTML = '';
+            accounts.forEach(account => {
+                const historyItem = document.createElement('div');
+                historyItem.className = 'history-item';
+                
+                const expiredDate = new Date(account.expired);
+                const formattedDate = expiredDate.toLocaleDateString('id-ID', {
+                    day: 'numeric',
+                    month: 'long',
+                    year: 'numeric'
+                });
+                
+                historyItem.innerHTML = `
+                    <div class="history-item-header">
+                        <div class="history-item-username">${account.username}</div>
+                        <button class="copy-btn" data-account='${JSON.stringify(account)}'>
+                            <i class="fas fa-copy"></i>
+                            Salin
+                        </button>
+                    </div>
+                    <div class="history-item-details">
+                        <div>Password: ${account.password}</div>
+                        <div>Kadaluarsa: ${formattedDate}</div>
+                    </div>
+                `;
+                
+                historyList.appendChild(historyItem);
+            });
+
+            // Add event listeners to copy buttons
+            document.querySelectorAll('.copy-btn').forEach(button => {
+                button.addEventListener('click', function() {
+                    const accountData = JSON.parse(this.getAttribute('data-account'));
+                    copyAccountDetails(accountData);
+                });
+            });
+        }
+
+        function copyAccountDetails(account) {
+            const expiredDate = new Date(account.expired);
+            const formattedDate = expiredDate.toLocaleDateString('id-ID', {
+                day: 'numeric',
+                month: 'long',
+                year: 'numeric'
+            });
+            
+            const text = `Username: ${account.username}\nPassword: ${account.password}\nRole: ${account.role}\nKadaluarsa: ${formattedDate}`;
+            
+            navigator.clipboard.writeText(text).then(() => {
+                // Show temporary feedback
+                const originalText = this ? this.innerHTML : '';
+                if (this) {
+                    this.innerHTML = '<i class="fas fa-check"></i> Disalin';
+                    setTimeout(() => {
+                        this.innerHTML = originalText;
+                    }, 2000);
+                }
+            });
+        }
+
+        async function createAccount() {
+            if (cooldownActive) {
+                showResult('error', 'Anda masih dalam cooldown. Tunggu hingga timer selesai.');
+                return;
+            }
+            
+            const name = nameInput.value.trim();
+            
+            if (!name) {
+                showResult('error', 'Nama akun tidak boleh kosong!');
+                return;
+            }
+            
+            // Disable button and show loading
+            createBtn.disabled = true;
+            createBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Membuat Akun...';
+            
+            try {
+                // Generate random password
+                const password = generatePassword(10);
+                
+                // Calculate expiration date (30 days from now)
+                const createdAt = Date.now();
+                const expired = createdAt + (30 * 24 * 60 * 60 * 1000);
+                
+                // Create account data
+                const accountData = {
+                    username: name,
+                    password: password,
+                    role: "premium",
+                    createdAt: createdAt,
+                    expired: expired
+                };
+                
+                // Send request to create account in GitHub
+                const response = await fetch('/api/database', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(accountData)
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    // Add to local storage
+                    accounts.unshift(accountData);
+                    localStorage.setItem('xcviAccounts', JSON.stringify(accounts));
+                    
+                    // Set cooldown
+                    localStorage.setItem('lastAccountCreation', Date.now().toString());
+                    startCooldown(cooldownTime);
+                    
+                    // Update UI
+                    updateUserAccountCount();
+                    renderHistory();
+                    fetchTotalAccounts();
+                    
+                    // Show success message
+                    showResult('success', accountData);
+                    
+                    // Clear input
+                    nameInput.value = '';
+                } else {
+                    showResult('error', result.error || 'Gagal membuat akun. Silakan coba lagi.');
+                }
+            } catch (error) {
+                console.error('Error creating account:', error);
+                showResult('error', 'Terjadi kesalahan. Silakan coba lagi.');
+            } finally {
+                // Re-enable button (unless cooldown is active)
+                if (!cooldownActive) {
+                    createBtn.disabled = false;
+                    createBtn.innerHTML = '<i class="fas fa-plus-circle"></i> Create Akun';
+                }
+            }
+        }
+
+        function generatePassword(length) {
+            const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%&*";
+            let password = "";
+            for (let i = 0; i < length; i++) {
+                password += charset.charAt(Math.floor(Math.random() * charset.length));
+            }
+            return password;
+        }
+
+        function showResult(type, data) {
+            if (type === 'success') {
+                resultContent.className = 'result-content success';
+                resultTitle.textContent = 'Akun Berhasil Dibuat!';
+                
+                const expiredDate = new Date(data.expired);
+                const formattedDate = expiredDate.toLocaleDateString('id-ID', {
+                    day: 'numeric',
+                    month: 'long',
+                    year: 'numeric'
+                });
+                
+                accountDetails.innerHTML = `
+                    <p>Username: <span>${data.username}</span></p>
+                    <p>Password: <span>${data.password}</span></p>
+                    <p>Role: <span>${data.role}</span></p>
+                    <p>Kadaluarsa: <span>${formattedDate}</span></p>
+                `;
+                
+                // Add copy button
+                const copyButton = document.createElement('button');
+                copyButton.className = 'btn';
+                copyButton.innerHTML = '<i class="fas fa-copy"></i> Salin Data Akun';
+                copyButton.style.marginTop = '15px';
+                copyButton.addEventListener('click', () => {
+                    copyAccountDetails(data);
+                });
+                
+                accountDetails.appendChild(copyButton);
+            } else {
+                resultContent.className = 'result-content error';
+                resultTitle.textContent = 'Gagal Membuat Akun';
+                accountDetails.innerHTML = `<p style="text-align:center;">${data}</p>`;
+            }
+            
+            resultPopup.classList.add('active');
+            overlay.classList.add('active');
+        }
+
+        // Initialize
+        fetchTotalAccounts();
+    </script>
+</body>
+</html>
